@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a2e0b7f6ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <a href="#home" class="logo">MyPortfolio</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Trang chủ</a></li>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#skills">Kỹ năng</a></li>
+        <li><a href="#education">Học vấn</a></li>
+        <li><a href="#projects">Dự án</a></li>
+        <li><a href="#experience">Kinh nghiệm</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+      <div id="menu-icon"><i class="fas fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="home section">
+    <div class="home-content">
+      <h1>Xin chào, tôi là <span>Anh Tuấn</span></h1>
+      <p>Tôi là một nhà phát triển web đam mê tạo ra những trang web đẹp và hiện đại.</p>
+      <a href="#contact" class="btn">Liên hệ ngay</a>
+    </div>
+    <div class="home-img">
+      <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500" alt="Avatar">
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <h2 class="section-title">Giới thiệu</h2>
+    <div class="about-container">
+      <p>Tôi yêu thích công nghệ và thích khám phá những công cụ mới để xây dựng sản phẩm sáng tạo. Tôi luôn muốn học hỏi và phát triển trong lĩnh vực lập trình web.</p>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Kỹ năng</h2>
+    <div class="skills-container">
+      <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+      <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+      <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill"><i class="fab fa-react"></i> React</div>
+      <div class="skill"><i class="fab fa-node-js"></i> Node.js</div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section">
+    <h2 class="section-title">Học vấn</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span>2020 - Nay</span>
+        <h3>Đại học Công nghệ thông tin</h3>
+        <p>Chuyên ngành: Khoa học máy tính</p>
+      </div>
+      <div class="timeline-item">
+        <span>2017 - 2020</span>
+        <h3>Trung học phổ thông</h3>
+        <p>Khối tự nhiên</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Dự án</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <img src="https://picsum.photos/400/250?1" alt="Project 1">
+        <h3>Website bán hàng</h3>
+        <p>Thiết kế giao diện mua hàng thân thiện và responsive.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://picsum.photos/400/250?2" alt="Project 2">
+        <h3>Blog cá nhân</h3>
+        <p>Chia sẻ kiến thức và kinh nghiệm lập trình.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://picsum.photos/400/250?3" alt="Project 3">
+        <h3>Portfolio</h3>
+        <p>Trang giới thiệu bản thân và dự án đã làm.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section">
+    <h2 class="section-title">Kinh nghiệm</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span>2023 - Nay</span>
+        <h3>Frontend Developer tại XYZ</h3>
+        <p>Phát triển giao diện người dùng bằng React và TailwindCSS.</p>
+      </div>
+      <div class="timeline-item">
+        <span>2022 - 2023</span>
+        <h3>Thực tập sinh Web Developer</h3>
+        <p>Học hỏi và tham gia các dự án nhỏ trong công ty.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Liên hệ</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Tên của bạn" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Lời nhắn của bạn..." required></textarea>
+      <button type="submit" class="btn">Gửi</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio — Thiết kế bởi Tôi ❤️</p>
+  </footer>
+
+  <!-- Liên kết JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
